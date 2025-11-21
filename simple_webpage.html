@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html Lang="eng">
+    <head>
+        <title>My Simple Webpage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+
+        <!-- Internal basic CSS code -->
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin:0%;
+                padding:0%;
+                background-color: #f4f4f4;
+            }
+            header,main, section {
+                margin: 20px;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                gap: 15px;
+                margin-left: 23px;
+                color: #333;
+            }
+
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+            li {
+             border: 2px solid #ccc;
+             border-radius: 5px;
+             padding: 5px 10px;
+            }
+
+
+        </style>
+    </head> 
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <p>This is a basic HTML webpage structure.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href ="#home">Home</a></li>
+            <li><a href ="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section of the webpages.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the About section of the webpages</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact section of the webpages</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p>This is the Services section of the webpages</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>This is the Blog section of the webpage</p>
+        </section>
+</body>
+</html>
+
+
+<!-- 
+...Example of an internal link within the same webpage...
+
+Navigation link at the top
+<a href="#contact">Go to Contact Section</a>
+
+...some content...
+-Target section at the bottom
+<h2 id="contact">Contact Us</h2>
+<p>Email us at support@example.com</p>
+-->
+
+
+
+<!-- 
+
+🏷️<main> Tag in HTML
+  The <main> tag represents the part of the page that contains the core and most important 
+  content — such as articles, blogs, or key information.
+- It contains the primary content (not sidebars, headers, footers, or navigation).
+- There should be only one <main> tag per page. 
+- Helps with accessibility and SEO by signaling the core content to browsers and screen readers.
+-->
+
+
+<!-- 
+HTML <section> Tag – Key Points
+- ✅ Used to group related content on a webpage.
+- 🧠 Semantically meaningful — each section should have a clear topic.
+- 🏷️ Often includes a heading (<h1> to <h6>) inside.
+- 📄 Commonly used for parts like "About Us", "Services", "Contact".
+- 🧩 Helps with SEO and accessibility by organizing content logically.
+- 💡 Can contain other HTML elements like paragraphs, lists, images, etc.
+- 🧱 Different from <div> — <section> is for semantic grouping, <div> is for generic containers.
+-->
