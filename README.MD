@@ -1,4 +1,4 @@
-# By using this file i was known basic cosic commands : -<br>
+# By using this file i known some basic  commands : -<br>
 # How the command are work properly and how i am excute . <br>
 # In this Repository i am using basic css and HTML to understand the basic commands of git hub like : -<br>
 
