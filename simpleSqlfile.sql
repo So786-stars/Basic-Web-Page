@@ -21,3 +21,8 @@ VALUES
     ('S002', 'Riya Sharma', 102),
     ('S003', 'Aman Verma', 103),
     ('S004', 'Neha Singh', 104);
+
+
+
+-- GIT COMMAND 
+-- git push origin branch_name 
