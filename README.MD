@@ -11,7 +11,7 @@ step 2 :- git init (init is creating the new git repo . for conformation we use 
 step 3 :- git remote origin ..repo_link... (add the origin of the file that we created on GitHub)
 step 4 :- git remote -v (use this ccommand to verify the remote)
 step 5 :- git branch (to check the branch name is it is master or main )
-step 6 :- git branch -M main (to rename the branch name)
+step 6 :- git branch -M main (to rename the existing branch name)
 step 7 :- git push origin main (to push the code on Github Platform )
 
 -->
