@@ -1,6 +1,14 @@
+____________________________________________________________________
+Branch related commands : -
+____________________________________________________________________
 Basic commands Related to branch in GitHub: -
 git branch (to check the branch . where are u?)
 git branch -M main ( to rename the branch. rename the existing branch)
 git checkout branch_name (to navigate the one branch to another branch)
 git checkout -b branch_name (to create the new branch)
-git check -b branch_name (delete the existing branch)
+git check -d branch_name (delete the existing branch)
+
+_____________________________________________________________________
+Steps basic from initial  : - GitHub repo -> clone -> changes -> add -> commit -> path
+_____________________________________________________________________
+commands :-
