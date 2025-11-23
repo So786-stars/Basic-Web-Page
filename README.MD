@@ -15,5 +15,4 @@ step 6 :- git branch -M main (to rename the existing branch name)
 step 7 :- git push origin main (to push the code on Github Platform )
 
 -->
-
 // now our file is push on git hub we check it or it shown when we refresh it
