@@ -49,3 +49,12 @@ git checkout branch_name (to navigate the one branch to another branch)
 git checkout -b branch_name (to create the new branch)
 git check -d branch_name (delete the existing branch)
 
+______________________________________________________________________
+commands: - How to pull the changes content from GitHub to local machine 
+            means if we change somethings on Remote machine and want to upload
+            on local machine then what type of command we used ? 
+_______________________________________________________________________
+ANS : -   We use [ git pull origin main ] command
+          git pull origin branch_name(main , master, other..etc)
+Explain : git pull origin main, fetches the latest changes from the remote 
+          repository’s main branch and merges them into your local branch. 
