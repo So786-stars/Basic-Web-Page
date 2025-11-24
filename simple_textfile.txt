@@ -1,6 +1,63 @@
+____________________________________________________________________
+setting up Git : -
+____________________________________________________________________
+Visiual Stdio code
+Window (Git Bash)
+Mac (Terminal)
+Ubantu (Linux)
+
+Configuring Git commands : -
+git config --global username "github_user_name"
+git config --global user.email "youremail@gmail.com"
+
+
+____________________________________________________________________
+VScode status : -
+Clone - cloning a repository/folder on our local system/machine
+git clone ....remote link....
+____________________________________________________________________
+____________________________________________________________________
+Branch related commands : -
+____________________________________________________________________
 Basic commands Related to branch in GitHub: -
 git branch (to check the branch . where are u?)
 git branch -M main ( to rename the branch. rename the existing branch)
 git checkout branch_name (to navigate the one branch to another branch)
 git checkout -b branch_name (to create the new branch)
-git check -b branch_name (delete the existing branch)
+git check -d branch_name (delete the existing branch)
+
+
+_____________________________________________________________________
+Steps basic from initial  : - GitHub repo -> clone -> changes -> add -> commit -> path
+_____________________________________________________________________
+Overall commands :-
+git clone ..GitHub_remote/other_link... (clone means copy the all file from remote/GitHub machine/system)
+git status (see the status of the git files U,M,S,UM)/(To see the state of files/code)
+            Status : U  - untracked  -> unknown file can't be tracked by git
+                     M  - changes/modified -> file in modification state
+                     S  - staged  -> file ready to be commited
+                     UM - unchanged/unmodifiable -> (No need to modify the file after commited it's save to local system) git push origin main/branch_name (upload the local repo content to remote repo)                    
+git add filename/. (file name to add the changes)/(using only dot changes multipal files in single click)
+git commit -m "small meningful msg"  (to save the changes)
+git init (make the git files/folders)
+git remote add origin ...link....
+git remove -v (to verify remote)
+git branch (to check branch)
+git branch (to check the branch . where are u?)
+git branch -M main ( to rename the branch. rename the existing branch)
+git checkout branch_name (to navigate the one branch to another branch)
+git checkout -b branch_name (to create the new branch)
+git check -d branch_name (delete the existing branch)
+
+______________________________________________________________________
+commands: - How to pull the changes content from GitHub to local machine 
+            means if we change somethings on Remote machine and want to upload
+            on local machine then what type of command we used ? 
+_______________________________________________________________________
+ANS : -   We use [ git pull origin main ] command
+          git pull origin branch_name(main , master, other..etc)
+Explain : git pull origin main, fetches the latest changes from the remote 
+          repository’s main branch and merges them into your local branch.
+
+git diff banch_name : (displayy the difference of other branch with current branch)
+git merge branch_name : (merge the content of two different file/code that exist in different in branches)
