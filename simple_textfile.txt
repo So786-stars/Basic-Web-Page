@@ -57,4 +57,7 @@ _______________________________________________________________________
 ANS : -   We use [ git pull origin main ] command
           git pull origin branch_name(main , master, other..etc)
 Explain : git pull origin main, fetches the latest changes from the remote 
-          repository’s main branch and merges them into your local branch. 
+          repository’s main branch and merges them into your local branch.
+
+git diff banch_name : (displayy the difference of other branch with current branch)
+git merge branch_name : (merge the content of two different file/code that exist in different in branches)
